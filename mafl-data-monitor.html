@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MAFL Data Monitor</title>
+<title>MAFL Data Health Monitor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -174,7 +174,7 @@
 <body>
 
 <header>
-  <h1>MAFL Data Monitor</h1>
+  <h1>MAFL Data Health Monitor</h1>
   <div class="sub">
     <span class="env mono">mafl_data_load_log</span>
     <span class="refresh" id="lastRefresh">Data as of &#8212;</span>
@@ -240,7 +240,7 @@ const ONCALL_DATA = [{"Name": "Pramod", "Phone_Number": "971507067378", "Rank": 
 /*__ONCALL_DATA_END__*/
 
 /*__D365_SYNC_DATA_START__*/
-const D365_SYNC_DATA = [{"Table_Name": "d365_salesline", "Source_Count": 22852785, "Fabric_Silver_Count": 22852760, "Source_Max_DateTime": "2026-09-30 08:27:08", "Fabric_Silver_Max_DateTime": "2026-09-30 07:17:09", "CurrentTime": "2026-09-30 08:46:50.003313", "SyncDelay_ADLS_to_Fabric_Hours": 1.17, "SyncDelay_D365_to_ADLS_Hours": 0.33, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 08:35:55.064664", "Transaction_Id": "LEGO-ON-15000149", "This_Table_Calculated_On": "2026-09-30 08:46:50.003313", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.18}, {"Table_Name": "d365_salestable", "Source_Count": 8319002, "Fabric_Silver_Count": 8318996, "Source_Max_DateTime": "2026-09-30 07:49:28", "Fabric_Silver_Max_DateTime": "2026-09-30 07:17:08", "CurrentTime": "2026-09-30 08:46:50.003313", "SyncDelay_ADLS_to_Fabric_Hours": 0.54, "SyncDelay_D365_to_ADLS_Hours": 0.96, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 08:06:01.659384", "Transaction_Id": "FKSA-ON-15000122", "This_Table_Calculated_On": "2026-09-30 08:46:50.003313", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.68}, {"Table_Name": "d365_retailtransactiontable", "Source_Count": 34598443, "Fabric_Silver_Count": 34598437, "Source_Max_DateTime": "2026-09-30 07:37:23", "Fabric_Silver_Max_DateTime": "2026-09-30 07:17:14", "CurrentTime": "2026-09-30 08:46:50.003313", "SyncDelay_ADLS_to_Fabric_Hours": 0.34, "SyncDelay_D365_to_ADLS_Hours": 1.16, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 08:17:23.133857", "Transaction_Id": "iAGMU3BjlIui9CvKbyEz2z4I23-KGqJd", "This_Table_Calculated_On": "2026-09-30 08:46:50.003313", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.49}, {"Table_Name": "d365_retailtransactionsalestrans", "Source_Count": 29613748, "Fabric_Silver_Count": 29613726, "Source_Max_DateTime": "2026-09-30 08:23:35", "Fabric_Silver_Max_DateTime": "2026-09-30 07:17:14", "CurrentTime": "2026-09-30 08:46:50.003313", "SyncDelay_ADLS_to_Fabric_Hours": 1.11, "SyncDelay_D365_to_ADLS_Hours": 0.39, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 08:43:15.871854", "Transaction_Id": "0OZ7pRVziW28PGoJO9iH9GoGEO7ChBDj", "This_Table_Calculated_On": "2026-09-30 08:46:50.003313", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.06}];
+const D365_SYNC_DATA = [{"Table_Name": "d365_salesline", "Source_Count": 22852796, "Fabric_Silver_Count": 22852785, "Source_Max_DateTime": "2026-09-30 08:56:54", "Fabric_Silver_Max_DateTime": "2026-09-30 08:27:08", "CurrentTime": "2026-09-30 09:26:55.181691", "SyncDelay_ADLS_to_Fabric_Hours": 0.5, "SyncDelay_D365_to_ADLS_Hours": 0.5, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 09:06:28.650172", "Transaction_Id": "FHUA-ON-14999163", "This_Table_Calculated_On": "2026-09-30 09:26:55.181691", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.34}, {"Table_Name": "d365_salestable", "Source_Count": 8319018, "Fabric_Silver_Count": 8319002, "Source_Max_DateTime": "2026-09-30 08:58:05", "Fabric_Silver_Max_DateTime": "2026-09-30 07:49:28", "CurrentTime": "2026-09-30 09:26:55.181691", "SyncDelay_ADLS_to_Fabric_Hours": 1.14, "SyncDelay_D365_to_ADLS_Hours": 0.48, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 09:14:34.961829", "Transaction_Id": "FHUA-SO-D2600833", "This_Table_Calculated_On": "2026-09-30 09:26:55.181691", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.21}, {"Table_Name": "d365_retailtransactionsalestrans", "Source_Count": 29613748, "Fabric_Silver_Count": 29613748, "Source_Max_DateTime": "2026-09-30 08:23:35", "Fabric_Silver_Max_DateTime": "2026-09-30 08:23:35", "CurrentTime": "2026-09-30 09:26:55.181691", "SyncDelay_ADLS_to_Fabric_Hours": 0.0, "SyncDelay_D365_to_ADLS_Hours": 1.06, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 08:43:15.871854", "Transaction_Id": "0OZ7pRVziW28PGoJO9iH9GoGEO7ChBDj", "This_Table_Calculated_On": "2026-09-30 09:26:55.181691", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.73}, {"Table_Name": "d365_retailtransactiontable", "Source_Count": 34598498, "Fabric_Silver_Count": 34598465, "Source_Max_DateTime": "2026-09-30 08:54:29", "Fabric_Silver_Max_DateTime": "2026-09-30 08:23:35", "CurrentTime": "2026-09-30 09:26:55.181691", "SyncDelay_ADLS_to_Fabric_Hours": 0.52, "SyncDelay_D365_to_ADLS_Hours": 0.54, "D365_to_ADLS_SinkCreatedOn": "2026-09-30 09:15:33.452990", "Transaction_Id": "OshtNALWjb8QWRiRv82T4skEbfmXb71G", "This_Table_Calculated_On": "2026-09-30 09:26:55.181691", "SyncDelay_D365_to_ADLS_Hours_Actual": 0.19}];
 /*__D365_SYNC_DATA_END__*/
 
 /*__DBT_DATA_START__*/
